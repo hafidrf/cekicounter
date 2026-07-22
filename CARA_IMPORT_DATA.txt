@@ -1,0 +1,10 @@
+Ceki Counter — import sample standings (restore_klasmen_terakhir.json)
+
+1. Copy restore_klasmen_terakhir.json to your device (chat, Drive, USB, etc.).
+2. In the app: Home → cloud icon (Backup & restore) → Import backup (JSON).
+3. Select restore_klasmen_terakhir.json and confirm.
+4. Open Standings — Season 1 shows the sample baseline.
+   New finished matches add points and score differential on top of that baseline.
+
+Alternative when running this source build:
+Home → cloud icon → Load sample standings restore.
