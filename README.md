@@ -1,5 +1,21 @@
 # Ceki Counter
 
+[![Download APK](https://img.shields.io/badge/Download-Android%20APK%20v1.0.0-green?style=for-the-badge&logo=android)](https://github.com/hafidrf/cekicounter/releases/download/v1.0.0/cekicounter-v1.0.0.apk)
+
+## Download Android APK
+
+**Link langsung:** https://github.com/hafidrf/cekicounter/releases/download/v1.0.0/cekicounter-v1.0.0.apk
+
+1. Klik link di atas (atau tombol badge) untuk unduh `cekicounter-v1.0.0.apk`
+2. Di HP, izinkan install dari sumber tidak dikenal jika diminta
+3. Buka file APK → Install
+
+Semua versi: https://github.com/hafidrf/cekicounter/releases/latest
+
+> Build signed dengan debug keystore (personal / internal). Bukan dari Play Store — Android bisa munculkan peringatan.
+
+---
+
 **Ceki Counter** is a Flutter app for live scorekeeping and season standings in multiplayer table games. Set up players, track rounds, finish a match, and see the league table update — with local backup and restore so your history travels with you.
 
 Designed for card and party games where you need a clear score pad, flexible win rules, and a standing board across many sessions.
@@ -12,23 +28,6 @@ Designed for card and party games where you need a clear score pad, flexible win
 - **Themes:** light and dark Material 3 UI
 
 Data stays on the device (Shared Preferences / local storage). No account required.
-
----
-
-## Download Android APK
-
-Install the latest release APK without building from source:
-
-1. Open the [latest release](https://github.com/hafidrf/cekicounter/releases/latest)
-2. Download **`cekicounter-v1.0.0.apk`**
-3. On your phone, allow install from unknown sources / this browser if prompted
-4. Open the APK and install
-
-Direct download (v1.0.0):
-
-https://github.com/hafidrf/cekicounter/releases/download/v1.0.0/cekicounter-v1.0.0.apk
-
-> Note: this build is signed with the debug keystore (fine for personal / internal install). Android may show a warning because it is not from Play Store.
 
 ---
 
