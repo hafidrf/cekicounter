@@ -28,7 +28,7 @@ class CekiCounterApp extends ConsumerWidget {
         colorScheme: lightScheme,
         useMaterial3: true,
         textTheme: GoogleFonts.plusJakartaSansTextTheme(),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           elevation: 6,
           shadowColor: lightScheme.primary.withOpacity(0.12),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
@@ -53,7 +53,7 @@ class CekiCounterApp extends ConsumerWidget {
         colorScheme: darkScheme,
         useMaterial3: true,
         textTheme: GoogleFonts.plusJakartaSansTextTheme(ThemeData.dark().textTheme),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           elevation: 6,
           shadowColor: darkScheme.primary.withOpacity(0.18),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
