@@ -41,7 +41,7 @@ dependencies:
   file_picker: ^8.1.7
   intl: ^0.20.2
   fl_chart: ^0.69.2
-  google_fonts: ^6.2.1
+  google_fonts: ^8.0.0
 
 dev_dependencies:
   flutter_test:

@@ -43,6 +43,9 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Release APKs are published via GitHub Releases, not the repo
+*.apk
+
 # Local overrides / personal backups (keep sample under assets/restore/)
 # restore_klasmen_terakhir.json at repo root is a convenience copy of the sample asset
 *.iml
