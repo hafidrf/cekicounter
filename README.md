@@ -15,6 +15,23 @@ Data stays on the device (Shared Preferences / local storage). No account requir
 
 ---
 
+## Download Android APK
+
+Install the latest release APK without building from source:
+
+1. Open the [latest release](https://github.com/hafidrf/cekicounter/releases/latest)
+2. Download **`cekicounter-v1.0.0.apk`**
+3. On your phone, allow install from unknown sources / this browser if prompted
+4. Open the APK and install
+
+Direct download (v1.0.0):
+
+https://github.com/hafidrf/cekicounter/releases/download/v1.0.0/cekicounter-v1.0.0.apk
+
+> Note: this build is signed with the debug keystore (fine for personal / internal install). Android may show a warning because it is not from Play Store.
+
+---
+
 ## Features
 
 | Area | Description |
@@ -66,6 +83,18 @@ flutter run -d windows
 flutter run -d chrome
 flutter run -d android
 ```
+
+---
+
+## Build release APK
+
+```bash
+flutter build apk --release
+```
+
+Output:
+
+`build/app/outputs/flutter-apk/app-release.apk`
 
 ---
 
