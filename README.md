@@ -12,11 +12,11 @@
 
 Semua versi: https://github.com/hafidrf/cekicounter/releases/latest
 
-> Build signed dengan debug keystore (personal / internal). Bukan dari Play Store — Android bisa munculkan peringatan.
+> Build signed dengan debug keystore (personal / internal). Bukan dari Play Store, Android bisa munculkan peringatan.
 
 ---
 
-**Ceki Counter** is a Flutter app for live scorekeeping and season standings in multiplayer table games. Set up players, track rounds, finish a match, and see the league table update — with local backup and restore so your history travels with you.
+**Ceki Counter** is a Flutter app for live scorekeeping and season standings in multiplayer table games. Set up players, track rounds, finish a match, and see the league table update, with local backup and restore so your history travels with you.
 
 Designed for card and party games where you need a clear score pad, flexible win rules, and a standing board across many sessions.
 
@@ -110,7 +110,7 @@ Output:
 A demo backup lives at `assets/restore/restore_klasmen_terakhir.json`.
 
 1. Home → backup / restore → **Import backup (JSON)**, or use the bundled sample restore action if available
-2. Open **Standings** — you should see a sample season baseline
+2. Open **Standings**, you should see a sample season baseline
 3. Finished matches after that add points on top of the baseline
 
 ---
@@ -138,7 +138,7 @@ cekicounter/
 
 ## Backup format
 
-Exports are JSON (`schemaVersion` 2) containing history, active session, manual standings baselines, player presets, and theme preference. Treat backups as personal data — do not commit real league exports to a public repository.
+Exports are JSON (`schemaVersion` 2) containing history, active session, manual standings baselines, player presets, and theme preference. Treat backups as personal data; do not commit real league exports to a public repository.
 
 ---
 
